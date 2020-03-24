@@ -3,17 +3,21 @@
 BeautifulSoup toy example running queries and scraping results on a popular italian ad website
 
 forked from morrolinux -> https://www.youtube.com/watch?v=qyZ-E-6TPD8
+
 updated in order to work with new subito.it website (03/2020)
 
 
-install and configure telegram:
+
+Install and configure telegram:
 
 --> sudo pip3 install telegram_send 
 
 --> telegram-send --configure
 
 
-example usage:
+
+
+Example usage:
 
 --> sudo python3 subito-searcher.py --help
 
@@ -21,4 +25,6 @@ example usage:
 
 
 
-to run continuously use subito-searcher-daemon.sh
+
+
+In order to run continuously use subito-searcher-daemon.sh
